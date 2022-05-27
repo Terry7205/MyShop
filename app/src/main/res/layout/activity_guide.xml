@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:padding="10dp">
+
+    <TableRow>
+        <TextView android:layout_span="2"
+            android:text="운영시간"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#20FFB2"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"/>
+        <TextView android:text="9:00 ~ 18:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="휴일"/>
+        <TextView android:text="9:00 ~ 18:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="점심시간"/>
+        <TextView android:text="9:00 ~ 18:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_span="2"
+            android:text="오시는길"/>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico01"/>
+        <TextView android:text="서울시 연평구 ..로 "/>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico02"/>
+        <TextView android:text="서울시 연평구 ..로 "/>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico03"/>
+        <TextView android:text="서울시 연평구 ..로 "/>
+    </TableRow>
+</TableLayout>

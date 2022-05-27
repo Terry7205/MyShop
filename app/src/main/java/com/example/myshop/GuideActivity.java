@@ -19,7 +19,7 @@ public class GuideActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("geo:37.4807426,127.084375?z=15")) ;
+                        Uri.parse("geo:37.5435725,127.194078?z=20")) ;
                 startActivity(intent);
 
             }

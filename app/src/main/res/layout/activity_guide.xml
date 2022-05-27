@@ -34,7 +34,9 @@
             android:text="오시는길"/>
     </TableRow>
     <TableRow>
-        <ImageView android:src="@drawable/sub01_ico01"/>
+        <ImageView
+            android:id="@+id/img_map"
+            android:src="@drawable/sub01_ico01"/>
         <TextView android:text="서울시 연평구 ..로 "/>
     </TableRow>
     <TableRow>
